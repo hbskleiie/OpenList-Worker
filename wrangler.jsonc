@@ -23,6 +23,12 @@
 // 用户填入的值会成为该 Worker 的 Secret，后续更新不会被覆盖。
 // =============================================================================
 {
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "25dd5f4e-06c1-42c2-8cb8-d90e927d5cd3"
+    }
+  ],
   "name": "openlist-tsworkers",
   "main": "src/backend/worker.ts",
   "compatibility_date": "2026-08-04",
